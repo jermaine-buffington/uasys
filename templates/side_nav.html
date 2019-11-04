@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+			.profile-header {
+				text-align: center;
+				padding: 14px 16px;
+				float: right;
+			}
+
+			ul {
+				list-style-type: none;
+				margin-top: 15px;
+				padding: 0;
+				overflow: hidden;
+				background-color: #9bb4b1;
+				border-radius: 15px;
+				box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+			}
+
+			li {
+				float: left;
+			}
+
+			li a {
+				display: block;
+				color: white;
+				text-align: center;
+				padding: 14px 16px;
+				text-decoration: none;
+			}
+
+			li a:hover {
+				background-color: #587389;
+				text-decoration: none;
+				text-decoration-color: white;
+			}
+
+			.nav-profile {
+				font-size:16px;
+			}
+
+		</style>
+	</head>
+	<body>
+		<ul>
+			<li><a href="{% url 'home' %}">HOME</a></li>
+			<li><a href="#">STUDENTS</a></li>
+			<li><a href="#">SCHEDULING</a></li>
+			<li><a href="#">RECORDS</a></li>
+			<li><a href="#">MESSAGES</a></li>
+			<div class="profile-header">
+				<a href="{% url 'profile' %}"><small>Logged in as:  {{emp.first_name}} {{emp.last_name}}</small></a>
+			</div>
+		</ul>
+	</body>
+</html>

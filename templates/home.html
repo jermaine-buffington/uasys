@@ -1,0 +1,112 @@
+{% extends 'base.html' %}
+	
+	{% block content %}
+		{% include 'side_nav.html' %}
+
+		<div class="row">
+			<div class="side_menu col-2">
+				<h3 class="side-menu-header">Quick Links</h3>
+				<ul style="list-style-type: none;">
+					<li><a href="{% url 'enroll' %}">ENROLLMENT</a></li>
+					<li><a href="#">REGISTRATION</a></li>
+					<li><a href="#">ADMINISTRATION</a></li>
+					<li><a href="#">TRANSCRIPTS</a></li>
+					<li><a href="#">MESSAGES</a></li>
+				</ul>
+			</div>
+			{% include 'events_tbl.html' %}
+
+			<div class="sub-table-button col-9">
+				<button class="w3-btn w3-black w3-round-large">Clear Past Events</button>
+				<button class="w3-btn w3-black w3-round-large" onclick="openEventForm()">Create New</button>
+			</div>
+
+			{% include 'actions_tbl.html' %}
+
+			<div class="sub-table-button col-9">
+				<button class="w3-btn w3-black w3-round-large">Clear Completed</button>
+				<button type="button" class="w3-btn w3-black w3-round-large" onclick="openActionForm()">Create New</button>
+			</div>
+		</div>
+
+		<div class="new-event-form" id="new-event">
+			<form action="{% url 'event_refresh' %}" method="POST" class="form-container">
+				{% csrf_token %}
+				<h2>Create New Event</h2>
+				<div class="fieldWrapper">
+					<label for="{{new_event_form.event_date.id_for_label}}"><b>Date of Event:</b></label><br>
+					<input type="date" name="{{new_event_form.event_date.html_name}}" required><br><br>
+					<!-- {{ new_event_form.event_date }} -->
+				</div>
+				<div class="fieldWrapper">
+					<label for="{{new_event_form.title.id_for_label}}"><b>Title:</b></label>
+					<input type="text" placeholder="Enter Name of Event" name="{{new_event_form.title.html_name}}" required>
+					<!-- {{ new_event_form.title }} -->
+				</div>
+				<div class="fieldWrapper">
+					<label for="{{new_event_form.host.id_for_label}}"><b>Sponsor (Host):</b></label>
+					<input type="text" placeholder="Enter Sponsor or Host Name" name="{{new_event_form.host.html_name}}" required>
+					<!-- {{ new_event_form.host }} -->
+				</div>
+				<div class="fieldWrapper">
+					<label for="{{new_event_form.location.id_for_label}}"><b>Event Location:</b></label>
+					<input type="text" placeholder="Enter Event Location" name="{{new_event_form.location.html_name}}" required>
+					<!-- {{ new_event_form.location }} -->
+				</div>
+				<div class="fieldWrapper">
+					<label for="{{new_event_form.start.id_for_label}}"><b>Start Time:</b></label><br>
+					<input type="time" name="{{new_event_form.start.html_name}}" required><br><br><br>
+					<!-- {{ new_event_form.start }} -->
+				</div>	
+				<button type="submit" class="w3-btn w3-black w3-round-large">Submit</button>
+				<button type="button" class="w3-btn w3-black w3-round-large" onclick="closeEventForm()">Cancel</button>
+
+			</form>
+		</div>
+		<div class="new-event-form" id="new-action">
+			<form action="{% url 'action_refresh' %}" method="POST" class="form-container">
+				{% csrf_token %}
+				<h2>Create New Action</h2>
+				<div class="fieldWrapper">
+					<label for="{{new_action_form.staff.id_for_label}}"><b>Assigned To:</b></label><br>
+					<input type="text" name="{{new_action_form.staff.html_name}}" required><br><br>
+					<!-- {{ new_event_form.event_date }} -->
+				</div>
+				<div class="fieldWrapper">
+					<label for="{{new_action_form.assigned.id_for_label}}"><b>Assigned On:</b></label>
+					<input type="date" name="{{new_event_form.assigned.html_name}}" required>
+					<!-- {{ new_event_form.title }} -->
+				</div>
+				<div class="fieldWrapper">
+					<label for="{{new_action_form.desc.id_for_label}}"><b>Task Description:</b></label>
+					<input type="text" placeholder="Enter Task Description" name="{{new_action_form.desc.html_name}}" required>
+					<!-- {{ new_event_form.host }} -->
+				</div>
+				<div class="fieldWrapper">
+					<label for="{{new_action_form.exp_date.id_for_label}}"><b>Due Date:</b></label>
+					<input type="date" name="{{new_action_form.exp_date.html_name}}" required>
+					<!-- {{ new_event_form.location }} -->
+				</div>
+				<button type="submit" class="w3-btn w3-black w3-round-large">Submit</button>
+				<button type="button" class="w3-btn w3-black w3-round-large" onclick="closeActionForm()">Cancel</button>
+
+			</form>
+		</div>
+		<script>
+			function openEventForm() {
+				document.getElementById("new-event").style.display = "block";
+			}
+
+			function closeEventForm() {
+				document.getElementById("new-event").style.display = "none";
+			}
+			function openActionForm() {
+				document.getElementById("new-action").style.display = "block";
+			}
+
+			function closeActionForm() {
+				document.getElementById("new-action").style.display = "none";
+			}
+		</script>
+
+	{% endblock content %}

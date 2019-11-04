@@ -1,0 +1,411 @@
+﻿1,COMS105,Interpersonal Communication,4.5,GENED
+2,ECON210,Principles of Macroeconomics,4.5,GENED
+3,ECON212,Principles of Microeconomics,4.5,GENED
+4,ENGL104,Introductory Written Communication,4.5,GENED
+5,ENGL105,Professional Written Communications,4.5,GENED
+6,HIST101,Modern American History: 1950 to the 21st Century,4.5,GENED
+7,GOVT201,American Government and Public Affairs,4.5,GENED
+8,LITR201,Literature: A Reflection of Life,4.5,GENED
+9,LITR225,Innovation and Leadership In Literature,4.5,GENED
+10,MATH102,Introduction to College Math,4.5,GENED
+11,MATH106,Algebra for Business,4.5,GENED
+12,MATH301,Data Driven Statistics,4.5,GENED
+13,SCI101,Introduction to the Sciences,4.5,GENED
+14,SCI201,Environmental Science and Sustainability,4.5,GENED
+15,SCI203,Environmental Science and Sustainability - Laboratory Course,1.5,GENED
+16,SCI103,Science and Technology- Laboratory Course,1.5,GENED
+17,SOCL202,"Social Perspectives on Race, Gender, and Class",4.5,GENED
+18,UNIV104,Academic and Career Success,4.5,GENED
+19,HUMNELE,Humanities Elective,4.5,GENED
+20,ACCT201,Accounting I,4,COREC
+21,ACCT202,Accounting II,4,COREC
+22,ACCT203,Accounting III,4,COREC
+23,ACCT210,Computerized Accounting,4,COREC
+24,ACCT220,Introduction to Managerial & Cost Accounting,4,COREC
+25,ACCT225,Introduction to Tax,4,COREC
+26,ACCT300,Intermediate Accounting I,4,COREC
+27,ACCT305,Intermediate Accounting II,4,COREC
+28,ACCT325,Auditing,4,COREC
+29,ACCT330,Auditing Lab,1,COREC
+30,ACCT340,Advanced Accounting,4,COREC
+31,ACCT351,Cost Accounting,4,COREC
+32,ACCT410,Advanced Tax,4,COREC
+33,ACCT420,Government & Not for Profit Accounting,4,COREC
+34,ACCT430,Introduction to International Financial Reporting Standards,4,COREC
+35,ACCT460,Accounting Capstone,4,COREC
+36,ECON310,Global Managerial Economics,4,COREC
+37,FINC225,Financial Statement Analysis,4,COREC
+38,FINC400,Financial Management,4,COREC
+39,HRMT215,Management of Human Resources,4,COREC
+40,IT254,Spreadsheet Applications,4,COREC
+41,MGM255,Management Fundamentals,4,COREC
+42,MGM316,International Business Communications,4,COREC
+43,MGM335,Organizational Behavior Principles,4,COREC
+44,MGM365,The Legal and Ethical Environment of Business,4,COREC
+45,MGMT235,Business Law I,4,COREC
+46,MGMT345,Operations Management,4,COREC
+47,MGMT455,Business Policies and Strategies,4,COREC
+48,MKTG225,Introduction to Marketing,4,COREC
+49,UNIV201,Career Planning and Management,4,COREC
+52,COMS201,Technical and Professional Writing,4.5,GENED
+54,COMS203,Speech Communications,4.5,GENED
+68,MATH451,Data Driven Decision Making,4.5,GENED
+70,PHIL101,Introduction to Ethics,4.5,GENED
+72,HUMN250,World Values and Cultures,4.5,GENED
+84,BADM440,Research Design Methods and Applications,4,COREC
+88,HRMT440,Managing Organizational Change,4,COREC
+93,MGM355,International Business Practices,4,COREC
+98,MGMT495,Business Capstone,4,COREC
+100,MPM210,Introduction to Project Management,6,COREC
+101,SCM210,Introduction to Logistics/Supply Chain Management,4,COREC
+105,MGMT115,Introductory Business Practices,4,COREC
+106,BADM475,Small Business Management and Entrepreneurship,4,CONCC
+107,BHVS316,Psychology and Mass Media,4,CONCC
+110,PSYC305,Psychology of Entrepreneurship/Intrapreneurship,4,CONCC
+111,PSYC325,Psychology and Social Media,4,CONCC
+112,PSYC426,Leadership,4,CONCC
+169,BADA200,Foundations of Data Management in Information Systems,4,CONCC
+170,BADA320,Introduction to Data Analytics for Business,4,CONCC
+171,BADA400,Business Analytics and Big Data,4,CONCC
+172,BADA430,Data Mining for Results,4,CONCC
+173,BHVS320,Analytical Reasoning and Presentation of Data,4,CONCC
+174,DMKT300,Introduction to Internet-Based Business Strategies,4,ELECC
+175,DMKT315,Data Analytics for Digital Marketing,4,ELECC
+176,FINC410,Corporate Finance,4,ELECC
+177,FINC420,International Finance,4,ELECC
+178,HCM330,Healthcare Statistics and Research,4,ELECC
+179,IT375,IT Management Strategy,4,ELECC
+180,IT416,Business Knowledge Systems,4,ELECC
+181,IT476,Quantitative Data Analysis,4,ELECC
+182,SCM310,Material and Inventory Management,4,ELECC
+239,BADM370,Quality Management,4,CONCC
+240,SCM220,Transportation and Distribution Management,4,CONCC
+242,SCM340,Supply Chain Negotiation,4,CONCC
+243,SCM350,Contract Management,4,CONCC
+244,SCM420,Procurement and Acquisition,4,CONCC
+245,SCM430,Logistics/Supply Chain Management Capstone,4,CONCC
+302,MKT325,Consumer Behavior Fundamentals,4,CONCC
+303,MKT380,Applied Marketing Management,4,CONCC
+304,MKTG305,Marketing and the Virtual Marketplace,4,CONCC
+305,MKTG320,Advertising and Public Relations,4,CONCC
+306,MKTG330,Marketing Research,4,CONCC
+307,MKTG410,International Marketing,4,CONCC
+308,MKTG420,Product Service Planning,4,CONCC
+365,MPM344,Project Risk Management,4,CONCC
+366,MPM346,Contracts and Procurement,4,CONCC
+367,MPM357,Project Performance and Quality Assurance,4,CONCC
+368,MPM436,Project Cost and Scheduling,4,CONCC
+369,MPM460,Human Resources within Project Management,4,CONCC
+370,MPM332,Organizational Leadership,4,CONCC
+371,PM220,Project Management Tools,4,CONCC
+379,MATH111,College Algebra for Technical Programs,4.5,GENED
+381,PSYC102,Introductory Psychology,4.5,GENED
+387,CE242,Computer Architecture,4,COREC
+388,CS101,Problem Solving in Computer Science,4,COREC
+389,CS118,Principles of Programming Languages,4,COREC
+390,CS119,Introduction of Programming,4,COREC
+391,CS219,Python Programming,4,COREC
+392,CS221,SQL Programming,4,COREC
+393,CS226,Java Programming,4,COREC
+394,CS228,C++ Programming,4,COREC
+395,CS233,Fundamentals of Data Structures,4,COREC
+396,CS253,Introduction to Database Systems,4,COREC
+397,CS267,Computer Algorithms,4,COREC
+398,CS311,Mobile Programming,4,COREC
+399,CS337,Introduction to Parallel Computing,4,COREC
+400,CS341,Principles of Operating Systems,4,COREC
+401,CS349,Software Engineering,4,COREC
+402,CS356,Foundations of Big Data Analytics,4,COREC
+403,CS491,Computer Science Team Project I,4,COREC
+404,CS492,Computer Science Team Project II,4,COREC
+405,CSS150,Introduction to Computer Security,4,COREC
+406,IT204,Fundamentals of Networking,4,COREC
+407,MATH211,Applications of Discrete Mathematics for Computer Systems and IT,4,COREC
+408,MATH311,Data Driven Statistics for Computer Systems and IT,4,COREC
+409,CS367,Streaming Data Analytics,4,CONCC
+410,CS397,Data Warehousing,4,CONCC
+411,CS378,NoSQL Databases,4,CONCC
+412,CS379,Machine Learning,4,CONCC
+413,CS473,Data Mining,4,CONCC
+414,CS479,Data Visualization,4,CONCC
+415,BSCSELE,Select 20 Credits from the list of courses shown below,20,CONCC
+416,CS227,Linux Programming,4,ELECC
+417,CS361,Principles of User Interface Design,4,ELECC
+418,CS368,Fundamentals of Software Requirements,4,ELECC
+419,CS374,Fundamentals of Software Design,4,ELECC
+420,CS468,Software Service Construction,4,ELECC
+421,CS469,Software Quality Assurance,4,ELECC
+422,CSS200,Principles of Network Security,4,ELECC
+423,CSS250,Security Risk Management,4,ELECC
+424,CSS280,Ethical Hacking,4,ELECC
+425,CSS321,Software Assurance,4,ELECC
+426,EM200,Introduction to Website Development,4,ELECC
+427,EM218,Web Development II,4,ELECC
+428,EM228,Scripting for the Web,4,ELECC
+429,EM270,Emerging Media and Technology,4,ELECC
+430,IT304,Computer Networks and Communications,4,ELECC
+530,CSS300,Vulnerability Assessment and Management,4,CONCC
+531,CSS380,Business Continuity and Disaster Recovery Planning,4,CONCC
+532,CSS441,Security Compliance,4,CONCC
+540,CS379,Machine Learning,4,ELECC
+545,CSS330,Database Security,4,ELECC
+546,CSS332,Database and Web Vulnerabilities and Security,4,ELECC
+547,CSS340,Operating System Security,4,ELECC
+548,CSS350,Computer Forensics I,4,ELECC
+549,CSS351,Computer Forensics II,4,ELECC
+550,CSS410,"Cloud Computing, Privacy and Security",4,ELECC
+551,CJUS261,Ethics in Criminal Justice,4.5,GENED
+563,POLS101,Introduction to Political Science,4.5,GENED
+569,SOCL102,Introductory Sociology,4.5,GENED
+571,CJUS141,Introduction to Criminal Justice,4,COREC
+572,CJUS201,Law Enforcement Operations and Report Writing,4,COREC
+573,CJUS254,Introduction to Homeland Security,4,COREC
+574,CJUS263,American Corrections,4,COREC
+575,CJUS280,Victimology,4,COREC
+576,CJUS285,Juvenile Delinquency,4,COREC
+577,CJUS290,Criminal Law,4,COREC
+578,CJUS343,Criminology,4,COREC
+579,CJUS375,Criminal Procedure,4,COREC
+580,CJUS440,The Laws of Evidence,4,COREC
+581,PBAD201,Public Administration,4,COREC
+582,PSYC210,Social Psychology,4,COREC
+583,PSYC337,Abnormal Psychology in the Workplace,4,COREC
+585,CJFI360,Introduction to Criminalistics,4,CONCC
+586,CJUS430,Data Analysis in Criminal Justice,4,CONCC
+587,CJUS448,Criminal Investigation,4,CONCC
+588,CJUS460,Interview and Interrogation,4,CONCC
+589,CJUS484,Criminal Justice Capstone,4,CONCC
+591,ELE,Select 40 credit hours of electives from the list below,40,CONCC
+592,CJFI430,Medico-Legal Death Investigations,4,ELECC
+593,CJUS275,Security Management,4,ELECC
+594,CJHS311,Study of Alcohol Use and Abuse,5,ELECC
+595,CJHS315,Child Abuse,4,ELECC
+596,CJUS350,Community Corrections,4,ELECC
+597,CJUS352,Community Policing,4,ELECC
+598,CJUS354,Criminal Courts,4,ELECC
+599,CJUS356,Loss Prevention,4,ELECC
+600,CJUS360,Legal Elements of Fraud,4,ELECC
+601,CJUS380,White Collar and Financial Crimes,4,ELECC
+602,CJUS385,Fraud Prevention & Deterrence,4,ELECC
+603,CJUS420,Family and Domestic Violence,4,ELECC
+604,CJUS422,Probation and Parole,4,ELECC
+605,CJUS424,Constitutional Law,4,ELECC
+606,CJUS434,Terrorism and Organized Crime,4,ELECC
+607,CJUS450,Forensic Criminology,4,ELECC
+608,CJHS470,Sex Crimes,4,ELECC
+609,LANG100,Survival Spanish,4,ELECC
+610,PSYC436,Introduction to Criminal Profiling,4,ELECC
+611,SOCL325,Licit and Illicit Drugs,4,ELECC
+647,CJFI410,Advanced Crime Scene Forensics,4,CONCC
+648,CJFI420,Forensic Photography & Crime Scene Documentation,4,CONCC
+650,CJFI440,"Bones, Bugs & Teeth – The Recovery of Human Remains",4,CONCC
+652,CJFI451,Introduction to Ridgeology,4,CONCC
+655,ELE,Select 4 credit hours of electives from the list provided,4,CONCC
+659,PBAD301,Grant Writing Basics,4,CONCC
+678,LANG100,Survival Spanish,4,ELECC
+687,MATH109,Introduction to Algebra,4.5,GENED
+688,MATH112,Analytic College Algebra,4.5,GENED
+689,MATH225,Applications of Discrete Mathematics and Statistics,4.5,GENED
+704,CSS260,Scripting with Perl,4,COREC
+713,CSS450,Security Capstone,4,COREC
+717,CS104,Problem Solving Concepts With C++,4,CONCC
+719,CS107,Problem Solving Concepts with Python,4,CONCC
+721,CS115,Programming With C++,4,CONCC
+723,CS117,Programming in Python,4,CONCC
+725,CS126,Unix Fundamentals,4,CONCC
+727,CS146,Introduction to UNIX,4,CONCC
+729,CS215,Intermediate C++ Programming,4,CONCC
+731,CS217,Intermediate Python Programming,4,CONCC
+733,CS230,Data Structures,4,CONCC
+735,CS235,Data Structures with C++,4,CONCC
+737,CS265,Algorithms,4,CONCC
+738,CS310,Programming Mobile Apps,4,CONCC
+739,CS340,Operating Systems,4,CONCC
+740,CS366,Software Engineering Methods,4,CONCC
+743,IT305,Advanced Networking,4,CONCC
+792,CS362,Structured Query Language for Data Management,4,CONCC
+794,CS250,Fundamentals of Database Systems,4,CONCC
+796,CS251,Fundamentals of Database Systems,4,CONCC
+798,CSS370,Security Architecture,4,CONCC
+799,CSS430,Advanced Research in IAS and IT Management,4,CONCC
+801,IT145,Client/Server Operating Systems,4,CONCC
+804,IT340,Client/Server System and Network Administration,4,CONCC
+806,Tech Electives,Select two CSS or CS or IT courses,8,CONCC
+809,MATH114,Analytic Trigonometry,4.5,PREPC
+810,MATH116,Foundations for Calculus,4.5,PREPC
+811,CHE105,Introduction to Chemistry,5,GENED
+820,HUMN201,Introduction to the Fine Arts I,4.5,GENED
+822,MATH205,Differential Calculus,5,GENED
+823,MATH207,Integral Calculus,5,GENED
+824,MATH304,Linear Algebra,4,GENED
+825,PHIL306,Ethics for the Information Age,4.5,GENED
+826,PHY211,Physics I - Mechanics,5,GENED
+827,PHY212,"Physics II – Heat, Light and Sound",5,GENED
+838,EE110,Introduction to Engineering,4,COREC
+839,EE221,Circuit Analysis I,5,COREC
+840,EE252,Digital Design I,5,COREC
+841,EE312,Embedded Microcontrollers,5,COREC
+842,EE325,CMOS Design,5,COREC
+843,EE331,Circuit Analysis II,5,COREC
+844,EE335,Advanced Engineering Mathematics,5,COREC
+845,EE341,Advanced Circuit Analysis,5,COREC
+846,EE343,Signals and Systems,4,COREC
+847,EE352,Digital Design II,5,COREC
+848,EE375,Electronic Design I,5,COREC
+849,EE395,Electronic Design II,5,COREC
+850,EE415,Advanced Electronic Design,5,COREC
+851,EE443,Communication Systems I,4,COREC
+852,EE463,Communications Systems II,4,COREC
+853,EE486,Impact of Global Issues on Design,2,COREC
+854,EE490,Product Design I,4,COREC
+855,EE491,Product Design II,4,COREC
+857,MATH302,Differential Equations,5,COREC
+858,MATH366,Probability and Statistics,5,COREC
+859,PHY340,Electromagnetics,5,COREC
+860,PHY350,Solid State Physics,5,COREC
+861,EE472,Advanced Digital System Design,4,ELECC
+862,EE473,Communication System Design,4,ELECC
+863,EE474,Controls Systems Design,4,ELECC
+864,EE475,Advanced Electronic Systems Design,4,ELECC
+865,EE477,Power Systems Design,4,ELECC
+866,EE479,Advanced Systems Design (System Design Continuation),4,ELECC
+867,EE495,Advanced Research and Study in Electrical Engineering,6,ELECC
+868,EE499,Special Topics in Electrical Engineering,6,ELECC
+891,ACC310,Accounting for Non-Accounting Majors,4,COREC
+893,HSS103,Introduction to Healthcare Delivery Systems,4,COREC
+894,HSS110,Concepts in Healthcare Organizations,4,COREC
+895,HSS121,Medical Terminology,4,COREC
+896,HSS210,Fundamentals of Reimbursement in Healthcare,4,COREC
+897,HSS215,Software Applications in Healthcare: Virtual Learning Experience,4,COREC
+898,HSS261,Ethics in Healthcare,4.5,COREC
+899,IT190,Introduction to IT,4,COREC
+904,HCI300,Introduction to Health Informatics,4,COREC
+905,HCM307,The Health Care Industry,4,COREC
+907,HCM337,"Current Legal, Ethical and Regulatory Issues in Healthcare",4,COREC
+908,HCM410,Fiscal Management in Healthcare Services,4,COREC
+909,HCM425,Managing the Health of Populations,4,COREC
+911,HRMT330,HRM Legal Environment,4,COREC
+912,HSA320,Administration in Healthcare Services,4,COREC
+913,HSS310,Economics of Healthcare,4,COREC
+914,HSS420,Global Health Systems,4,COREC
+915,HSS491,Healthcare Management Capstone,4,COREC
+918,BHVS205,Managerial Psychology,4,ELECC
+919,BHVS315,Interpersonal Communication and Dynamics,4,ELECC
+921,HRM345,Building Effective Teams,4,ELECC
+923,IT235,Database Applications With Access,4,ELECC
+925,MGMT385,Customer Service Excellence,4,ELECC
+958,IT190,Introduction to IT,4,COREC
+963,HCI310,DBMS for Healthcare,4,CONCC
+964,HCI380,Security of Electronic Health Information,4,CONCC
+965,HCI400,Health Analytics and Business Intelligence in Healthcare,4,CONCC
+966,HCI490,Health Informatics Capstone,4,CONCC
+968,ELEELEHUMN,Humanities Elective,4.5,GENED
+969,ELEELESCI,Science Elective,4.5,GENED
+970,ELEELESCI1,Science Elective 1,4.5,GENED
+971,ELEELESCILAB,Science Lab Elective,1.5,GENED
+972,ELEELESCILAB1,Science Lab Elective 1,1.5,GENED
+973,ELEELESOC,Social Science Elective,4.5,GENED
+974,ELEELEUS,US History/US Government Elective,4.5,GENED
+986,HUMELE,Humanities Elective,4.5,GENED
+996,IT106,Introduction to Programming Logic,4,COREC
+998,IT140,Introduction to Operating Systems and Client/Server Environments,4,COREC
+1002,IT190,Introduction to IT,4,COREC
+1005,IT401,Information Technology Architectures,4,COREC
+1006,IT425,"Systems Analysis, Design and Integration",4,COREC
+1008,ACCT370,Accounting Information Systems,4,CONCC
+1012,BADM150,Contemporary Business Trends,4,CONCC
+1013,IT265,Data Structures for Problem Solving,4,CONCC
+1014,CS352,Advanced Database Systems,4,CONCC
+1015,CS455,Software Requirements Engineering,4,CONCC
+1016,CSS335,"Data Security, Quality, and Integrity",4,CONCC
+1017,DMKT305,Internet Data Analysis for Business,4,CONCC
+1018,IT424,Systems Acquisition and Sourcing,4,CONCC
+1022,IT415,Business Intelligence,4,CONCC
+1024,IT417,"Data Extraction, Transformation, and Loading",4,CONCC
+1025,IT418,Decision Support Systems and Data Warehousing,4,CONCC
+1069,CS345,UNIX Systems Programming,4,CONCC
+1073,IT175,Introduction to Cloud Computing,4,CONCC
+1074,IT225,IT Support Systems,4,CONCC
+1076,IT326,Network Infrastructure Administration,4,CONCC
+1077,IT327,"Implementing, Managing and Maintaining a Network Infrastructure",4,CONCC
+1078,IT329,Network Infrastructure Design,4,CONCC
+1079,IT458,Disaster Recovery,4,CONCC
+1080,IT487,IT Capstone I,4,CONCC
+1081,IT488,IT Capstone II,4,CONCC
+1090,ELE,BSIT Elective,4,CONCC
+1147,IT454,Security Management,4,CONCC
+1148,IT456,Security Architecture,4,CONCC
+1195,CS377,Object Oriented Methods,4,SPECC
+1197,CS457,Software Design,4,SPECC
+1198,CS459,Software Testing,4,SPECC
+1208,SWE311,The Software Engineering Profession,4,SPECC
+1209,SWE410,Software Processes,4,SPECC
+1210,SWE440,Software Project Management,4,SPECC
+1211,SWE441,Human Elements in Projects and Organizations,4,SPECC
+1212,SWE481,Software Engineering Capstone I,4,SPECC
+1213,SWE482,Software Engineering Capstone II,4,SPECC
+1214,Programming Track,Choose a Programming Track from the list below,8,SPECC
+1256,CS347,Web User Interface Design,4,SPECC
+1257,DMD225,Computer Illustration I,4,SPECC
+1258,DMD242,Digital Imaging,4,SPECC
+1259,DMD480,Senior Design Project,4,SPECC
+1265,EM209,Digital Media and Intellectual Property,4,SPECC
+1272,EM325,Multi-Media Development for the Web,4,SPECC
+1273,EM326,Multi-Media Development for the Web II,4,SPECC
+1274,EM328,Server-Side Scripting for the Web,4,SPECC
+1275,EM420,Web-Based Database Applications,4,SPECC
+1276,EM425,Mobile Web Design,4,SPECC
+1279,IT470,Advanced Web Technologies,4,SPECC
+1280,ENGL220,Written Communication for Nurses,4.5,GENED
+1287,NRSG310,Challenges and Trends in Contemporary Nursing,4,COREC
+1288,NRSG311,Nursing Informatics,4,COREC
+1289,NRSG312,Population-Based Nursing,4,COREC
+1290,NRSG313,Alternative and Complementary Interventions,4,COREC
+1291,NRSG314,Safety and Quality Improvement in Nursing Practice,4,COREC
+1292,NRSG410,Health and Wellness Assessment,4,COREC
+1293,NRSG411,Evidence Based Practice and Applied Nursing Research,4,COREC
+1294,NRSG412,Leadership and Nursing Systems Management,4,COREC
+1295,NRSG413,Innovation in Nursing,4,COREC
+1296,NRSG490,"Nursing Theory, Critical Thinking and Competency",4,COREC
+1297,NRSG495,Nursing Capstone,4,COREC
+1298,ELE,Select 4 credit hours of electives from the list provided,4,COREC
+1299,RN,Registered Nurse License Transfer,28.5,PREPC
+1306,HCI300,Introduction to Health Informatics,4,ELECC
+1307,HCI310,DBMS for Healthcare,4,ELECC
+1308,HCI380,Security of Electronic Health Information,4,ELECC
+1309,HCI400,Health Analytics and Business Intelligence in Healthcare,4,ELECC
+1314,COMS220,Critical Interpretation of Documentary Film,4.5,GENED
+1333,BHVS215,Motivation and Emotion,4,COREC
+1337,BHVS400,The Psychology of Creativity and Ingenuity,4,COREC
+1338,BHVS410,Positivist Psychology and Leadership,4,COREC
+1339,HUMN400,Psychological Aspects of Cinema,4,COREC
+1340,PSYC130,Group Dynamics,4,COREC
+1342,PSYC310,Organizational Psychology,4,COREC
+1343,PSYC315,Biological Foundations of Behavior: The Brain,4,COREC
+1344,PSYC320,Theories of Personality,4,COREC
+1346,PSYC355,Learning and Cognition,4,COREC
+1347,PSYC360,Psychological Tests and Measurements,4,COREC
+1348,PSYC405,Psychology of Health and Well-Being in the Workplace,4,COREC
+1350,PSYC498,Psychology Capstone,4,COREC
+1354,ELE,24 credits from the Concentration Elective Choices,24,CONCC
+1355,PSYC499,Change and Emerging Trends in the Field of Psychology,4,CONCC
+1356,CB450,Orientation to the Consumer Behavior Profession,4,CONCC
+1357,CB455,"Marketing Management, Strategy, and Research",4,CONCC
+1358,CB460,Sales and Advertising,4,CONCC
+1359,CB465,The Psychology of Consumer Economic Behavior,4,CONCC
+1360,CB470,Consumer Behavior: The Individual,4,CONCC
+1361,CB475,Consumer Behavior: Groups and Society,4,CONCC
+1362,PSYC420,Communication and Interviewing Skills,4,ELECC
+1363,PSYC422,Community Psychology,4,ELECC
+1364,PSYC424,Diversity,4,ELECC
+1365,PSYC428,Neuroscience: The Brain,4,ELECC
+1366,PSYC434,Stress Management,4,ELECC
+1400,BHVS410,Positivist Psychology and Leadership,4,COREC
+1463,RES305,Introduction to Social Science Research Methods,4,COREC
+1464,RES310,Applied Research Methods in Psychology,4,COREC
+1466,OB450,Orientation to the Organizational Behavior Profession,4,CONCC
+1467,OB455,Consulting Skills,4,CONCC
+1468,OB460,Creating Change in Individuals and Organizations,4,CONCC
+1469,OB465,Adult Learning: Corporate Training and Development,4,CONCC
+1470,OB470,Developing Human Resources,4,CONCC
+1471,OB475,Advanced OD Skills: Organization Interventions,4,CONCC

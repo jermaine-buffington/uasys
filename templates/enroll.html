@@ -1,0 +1,42 @@
+{% extends 'base.html' %}
+{% load crispy_forms_tags %}
+
+	{% block content %}
+		{% include 'side_nav.html' %}
+
+		<div class="row">
+			<div class="side_menu col-2">
+				<h3 class="side-menu-header">Quick Links</h3>
+				<ul style="list-style-type: none;">
+					<li><a href="#">ENROLLMENT</a></li>
+					<li><a href="#">REGISTRATION</a></li>
+					<li><a href="#">ADMINISTRATION</a></li>
+					<li><a href="#">TRANSCRIPTS</a></li>
+					<li><a href="#">MESSAGES</a></li>
+				</ul>
+			</div>
+			<div class='col-9' style="margin:auto; margin-top:20px; float:left">
+			<h2>New Student Enrollment Form</h2><br><br>
+			<form method='POST'>
+				{% crispy form %}
+			</form>
+			</div>
+		</div>
+
+		<div id="popup-conf" class="popup">
+			<div class="popup-content">
+				<span class="close">&times;</span>
+				<p>New Student Added to Register</p>
+		</div>
+
+		<script>
+			var modal = document.getElementByID("popup-conf");
+			var btn = document.getElementByID("save-btn");
+			var span = document.getElementByClassName("close")[0];
+
+			btn.onclick = function() {modal.style.display = "block";}
+			span.onclick = function() {modal.style.display = "none";}
+
+		</script>
+
+	{% endblock content %}

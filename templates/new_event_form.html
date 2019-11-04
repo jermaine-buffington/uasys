@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<style>
+			
+		</style>
+	</head>
+	<body>
+		<div class="new-event-form" id="new-event">
+			<form action="/action_page.php" class="form-container">
+				<h2>New University Event Form</h2>
+				<label for="event_date"><b>Date of Event</b></label>
+				<input type="date" name="event_date" required>
+				<label for="event_title"><b>Title</b></label>
+				<input type="text" placeholder="Enter Name of Event" name="event_title" required>
+				<label for="event_sponsor"><b>Sponsor (Host)</b></label>
+				<input type="text" placeholder="Enter Sponsor or Host Name" name="event_sponsor" required>
+				<label for="event_location"><b>Event Location</b></label>
+				<input type="text" placeholder="Enter Event Location" name="event_location" required>
+				<label for="event_time"><b>Start Time</b></label>
+				<input type="time" name="event_time" required>
+
+				<button type="submit" class="w3-btn w3-black w3-round-large">Submit</button>
+				<button type="button" class="w3-btn w3-black w3-round-large" onclick="closeForm()">Cancel</button>
+
+			</form>
+		</div>
+		<script>
+			function openForm() {
+				document.getElementById("new-event").style.display = "block";
+			}
+
+			function closeForm() {
+				document.getElementById("new-event").style.display = "none";
+			}
+		</script>
+	</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<style>
+			.actions-table-style {
+				margin-left: 20%;
+				margin-top: 20px;
+			}
+
+			.my-table-class {
+				box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+				border-radius: 15px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="actions-table-style col-9">
+			<h3 style="margin-bottom: 15px">To-Do's and Action Items</h3>
+			<table class="table table-hover table-dark my-table-class">
+				<thead>
+					<tr>
+						<th scope="col">Assigned</th>
+						<th scope="col">Task Description</th>
+						<th scope="col">Due Date</th>
+						<th scope="col">Task Status</th>
+					</tr>
+				</thead>
+				<tbody>
+					{% for act in actions %}
+						<tr>
+							<th scope="row">{{act.assigned}}</th>
+							<td>{{act.desc}}</td>
+							<td>{{act.exp_date}}</td>
+							<td>
+								<select>
+									{% for opt in status %}
+
+									<option value={{opt.0}}>{{ opt.1 }}</option>
+
+									{% endfor %}
+								</select>
+							</td>
+						</tr>
+					{% endfor %}
+				</tbody>
+			</table>
+		</div>
+
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	</body>
+</html>

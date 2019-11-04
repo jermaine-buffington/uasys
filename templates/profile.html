@@ -1,0 +1,44 @@
+{% extends 'base.html' %}
+
+	{% block content %}
+		{% include 'side_nav.html' %}
+		<br />
+		<h2>Hello, {{emp.first_name}}</h2>
+		<br />
+		<div class="profile-container">
+			<h2 class="profile-section-header">Personal Information</h2>
+			<br />
+			<h3>Name:</h3>
+			<p>{{emp.first_name}} {{emp.last_name}}</p>
+			<br />
+			<h3>Street Address:</h3>
+			<p>{{emp.street_address}}</p>
+			<br />
+			<h3>City, State, Zip:</h3>
+			<p>{{emp.city}}, {{emp.us_state}} {{emp.zip_code}}</p>
+			<br />
+			<h3>Date of Birth:</h3>
+			<p>{{emp.birth_date}}</p>
+		</div>
+		<br /><br />
+		<div class="profile-container">
+			<h2 class="profile-section-header">Professional Information</h2>
+			<br />
+			<h3>Department:</h3>
+			<p>{{dept.name}}</p>
+			<h3>Title / Position:</h3>
+		</div>
+		<br /><br />
+		<div class="profile-container">
+			<h2 class="profile-section-header">Contact Information</h2>
+			<br />
+			<h3>Phone Number:</h3>
+			<p>{{emp.phone}}</p>
+			<br />
+			<h3>Email Address:</h3>
+			<p>{{emp.email}}</p>
+		</div>
+
+
+		
+	{% endblock content %}
