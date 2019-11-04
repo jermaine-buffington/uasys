@@ -25,7 +25,7 @@ SECRET_KEY = 't)2ogmaip+(-fx0ju@8e(nw89=77n39+vqx0+*8eou8sv1*km5'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [*]
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
